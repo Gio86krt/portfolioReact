@@ -1,5 +1,6 @@
 import { Router, Route, Link } from "react-router-dom";
 import React from "react";
+import projects from "../../Utils/GlobalStorage";
 
 function Header() {
   return (
@@ -23,12 +24,14 @@ function Header() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="/home">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link">Contact</a>
+                <a className="nav-link" href="/contact">
+                  Contact
+                </a>
               </li>
               <li className="nav-item dropdown">
                 <a
@@ -43,7 +46,7 @@ function Header() {
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/portfolio">
                       Show all
                     </a>
                   </li>
@@ -51,9 +54,17 @@ function Header() {
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Project 1
-                    </a>
+                    {projects.map((el) => {
+                      return (
+                        <a
+                          className="dropdown-item"
+                          target="_blank"
+                          href={el.url}
+                        >
+                          {el.name}
+                        </a>
+                      );
+                    })}
                   </li>
                 </ul>
               </li>
