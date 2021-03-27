@@ -25,7 +25,7 @@ const projects = [
     name: "Note Taker",
     url: "https://notetakerapp01.herokuapp.com/",
     repoLink: "https://github.com/Gio86krt/noteTaker",
-    description: "Useful app to take note.",
+    description: "Useful app to take notes.",
     image: "./noteTaker.png",
   },
   {

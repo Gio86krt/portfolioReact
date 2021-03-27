@@ -1,15 +1,19 @@
 import { NavLink, BrowserRouter } from "react-router-dom";
 import React from "react";
 import projects from "../../Utils/GlobalStorage";
+import "./style.css";
 
 function Header() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid mb-3">
-          <NavLink to="/" className="navbar-brand">
-            Giovanni Orlando
-          </NavLink>
+          <div className="myName">
+            <NavLink to="/" className="navbar-brand name">
+              Giovanni Orlando
+            </NavLink>
+            <p class="tiny">Front-End Developer</p>
+          </div>
           <button
             className="navbar-toggler"
             type="button"

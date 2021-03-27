@@ -8,3 +8,8 @@ form {
   margin-top: 100px;
   margin-left: 100px;
 }
+
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: 3px 3px 3px rgb(1, 148, 123);
+}

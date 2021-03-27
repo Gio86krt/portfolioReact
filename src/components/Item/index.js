@@ -2,19 +2,24 @@ import { Link } from "react-router-dom";
 import React from "react";
 
 function Item(props) {
+  const { image, name, description, url, repoLink } = props.props;
   const styling = {
     width: "25rem",
     marginBottom: "10px",
     marginRight: "10px",
     marginTop: "15px",
-    border: "0.1px solid lightgray",
+    backgroundColor: "white",
+    opacity: "0.9",
   };
 
-  const { image, name, description, url, repoLink } = props.props;
+  const styleImg = {
+    src: 'url(" ' + image + ' ")',
+  };
+
   console.log(image);
   return (
     <div className="col-12" style={styling}>
-      <img src={image} className="card-img-top" alt="project screenshot" />
+      <img style={styleImg} className="card-img-top" alt="project screenshot" />
       <div className="card-body">
         <h5 className="card-title">{name}</h5>
         <p className="card-text">{description}</p>
