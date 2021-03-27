@@ -13,3 +13,7 @@ h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-shadow: 3px 3px 3px rgb(1, 148, 123);
 }
+
+.send {
+  background-color: rgb(1, 126, 67);
+}

@@ -67,7 +67,6 @@ function Contact() {
           type="text"
           name="message"
           id="input message"
-          className="send"
           cols="50"
           rows="5"
         />

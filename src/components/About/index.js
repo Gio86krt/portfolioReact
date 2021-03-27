@@ -12,6 +12,28 @@ function About() {
   return (
     <div className="container" style={styling}>
       <Image />
+
+      <div className="links">
+        <a href="https://www.linkedin.com/in/giovanni-orlando-a902a472/">
+          <i
+            className="fa fa-linkedin-square"
+            style={{ fontSize: "48px", color: "green" }}
+          ></i>
+        </a>
+        <a href="https://github.com/Gio86krt">
+          <i
+            class="fa fa-github"
+            style={{ fontSize: "48px", color: "white" }}
+          ></i>
+        </a>
+        <a href="./resume.pdf" download>
+          <i
+            class="fa fa-download"
+            style={{ fontSize: "48px", color: "red" }}
+          ></i>
+        </a>
+      </div>
+
       <div className="card border-info">
         <div className="card-body">
           <h3 className="card-title">About Me:</h3>

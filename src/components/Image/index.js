@@ -6,7 +6,7 @@ function Image() {
     // float: "left",
     height: "auto",
     width: "auto",
-    maxHeight: "450px",
+    maxHeight: "380px",
     maxWidth: "auto",
   };
   return (
