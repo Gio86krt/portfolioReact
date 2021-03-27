@@ -1,3 +1,25 @@
+.background {
+  min-height: 900px;
+  padding-bottom: 30px;
+  width: auto;
+  display: block;
+  position: relative;
+}
+
+main::before {
+  content: "";
+  background-image: url("./stars.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
 .App {
   text-align: center;
 }

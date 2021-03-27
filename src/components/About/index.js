@@ -4,8 +4,13 @@ import Image from "../Image/index";
 import "./style.css";
 
 function About() {
+  const styling = {
+    marginTop: "50px",
+    // backgroundImage: `url("../assets") `
+  };
+
   return (
-    <div className="body container">
+    <div className="container" style={styling}>
       <Image />
       <div className="card border-info">
         <div className="card-body">

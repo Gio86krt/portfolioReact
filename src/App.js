@@ -8,19 +8,21 @@ import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
 
 function App() {
-  const endPoint = window.location.href;
-  console.log(endPoint);
   return (
-    <BrowserRouter>
-      <Header />
-      <Switch>
-        <Route exact path="/" component={About} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/contact" component={Contact} />
-      </Switch>
-      <Footer />
-    </BrowserRouter>
+    <div className="background">
+      <main>
+        <BrowserRouter>
+          <Header />
+          <Switch>
+            <Route exact path="/" component={About} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/portfolio" component={Portfolio} />
+            <Route exact path="/contact" component={Contact} />
+          </Switch>
+          <Footer />
+        </BrowserRouter>
+      </main>
+    </div>
   );
 }
 

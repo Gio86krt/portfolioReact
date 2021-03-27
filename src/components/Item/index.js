@@ -11,7 +11,7 @@ function Item(props) {
   };
 
   const { image, name, description, url, repoLink } = props.props;
-
+  console.log(image);
   return (
     <div className="col-12" style={styling}>
       <img src={image} className="card-img-top" alt="project screenshot" />
@@ -21,11 +21,7 @@ function Item(props) {
         <a href={url} target="_blank" className="btn btn-success btn-sm">
           Try it!
         </a>
-        <a
-          href={repoLink}
-          target="_blank"
-          className="btn btn-primary btn-sm mr-6"
-        >
+        <a href={repoLink} target="_blank" className="btn btn-primary btn-sm">
           Go to Repository
         </a>
       </div>
