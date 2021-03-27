@@ -4,7 +4,7 @@ import "./style.css";
 
 function Contact() {
   return (
-    <form>
+    <form className="container">
       <input
         type="text"
         cols="50"

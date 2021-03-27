@@ -1,13 +1,17 @@
 import API from "../../API/API";
 import projects from "../../Utils/GlobalStorage";
+import Item from "../Item";
 
-async function Portfolio() {
-  //   const projects = await API().then((res) => res.json());
-
-  projects.map((el) => {
-    console.log(el.name, el.url);
-  });
-  return <div></div>;
+function Portfolio() {
+  return (
+    <div className="container">
+      <div className="row">
+        {projects.map((el) => {
+          return <Item props={el} />;
+        })}
+      </div>
+    </div>
+  );
 }
 
 export default Portfolio;
