@@ -12,14 +12,15 @@ function Item(props) {
     opacity: "0.9",
   };
 
-  const styleImg = {
-    src: 'url(" ' + image + ' ")',
-  };
-
   console.log(image);
   return (
     <div className="col-12" style={styling}>
-      <img style={styleImg} className="card-img-top" alt="project screenshot" />
+      <img
+        style={{ border: "solid lightgrey" }}
+        src={window.location.origin + image}
+        className="card-img-top"
+        alt="project screenshot"
+      />
       <div className="card-body">
         <h5 className="card-title">{name}</h5>
         <p className="card-text">{description}</p>

@@ -4,7 +4,7 @@ const projects = [
     url: "https://gio86krt.github.io/DailyPlanner/",
     repoLink: "https://github.com/Gio86krt/DailyPlanner",
     description: "Plan your day with this useful and practical tool.",
-    image: "./planner.png",
+    image: "/assets/planner.png",
   },
   {
     name: "Fitness Tracker",
@@ -12,28 +12,28 @@ const projects = [
     repoLink: "https://github.com/Gio86krt/fitnessTracker",
     description:
       "Stay ahead of your game, record your workouts and track your progress.",
-    image: "./fitnessTracker.png",
+    image: "/assets/fitnessTracker.png",
   },
   {
     name: "Weather Dashboard",
     url: "https://gio86krt.github.io/WeatherDashboard/",
     repoLink: "https://github.com/Gio86krt/WeatherDashboard",
     description: "Search for a city and get the forecast for the next days.",
-    image: "./weather.png",
+    image: "/assets/weather.png",
   },
   {
     name: "Note Taker",
     url: "https://notetakerapp01.herokuapp.com/",
     repoLink: "https://github.com/Gio86krt/noteTaker",
     description: "Useful app to take notes.",
-    image: "./noteTaker.png",
+    image: "/assets/noteTaker.png",
   },
   {
     name: "Clients Management System",
     url: "https://islandsolutionscrm.herokuapp.com/",
     repoLink: "https://github.com/Gio86krt/",
     description: "Store your clients data and organize your work.",
-    image: "./CRM.png",
+    image: "/assets/CRM.png",
   },
   {
     name: "Reddit App",
@@ -41,7 +41,7 @@ const projects = [
     repoLink: "https://github.com/Gio86krt/FrontEnd-EasyRedditTrackerForCrypto",
     description:
       "Be constantly up to date on latest crypto currencies value with this useful App.",
-    image: "./reddit.png",
+    image: "/assets/reddit.png",
   },
 ];
 

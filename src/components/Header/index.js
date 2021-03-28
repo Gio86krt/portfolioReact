@@ -12,7 +12,7 @@ function Header() {
             <NavLink to="/" className="navbar-brand name">
               Giovanni Orlando
             </NavLink>
-            <p class="tiny">Front-End Developer</p>
+            <p class="tiny">Web Developer</p>
           </div>
           <button
             className="navbar-toggler"

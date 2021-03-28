@@ -1,6 +1,7 @@
 import { Router, Route, Link } from "react-router-dom";
 import React from "react";
 import Image from "../Image/index";
+import resume from "./resume.pdf";
 import "./style.css";
 
 function About() {
@@ -26,7 +27,7 @@ function About() {
             style={{ fontSize: "48px", color: "white" }}
           ></i>
         </a>
-        <a href="./resume.pdf" download>
+        <a href={window.location.origin + resume} download>
           <i
             class="fa fa-download"
             style={{ fontSize: "48px", color: "red" }}
