@@ -3,10 +3,10 @@ import picture from "./picture.jpg";
 function Image() {
   const styling = {
     marginBottom: "25px",
-    // float: "left",
+    marginLeft: "38%",
     height: "auto",
     width: "auto",
-    maxHeight: "380px",
+    maxHeight: "300px",
     maxWidth: "auto",
   };
   return (

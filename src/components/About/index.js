@@ -53,8 +53,9 @@ function About() {
             work.
             <br />
             <br />
-            My tech skills include JavaScript, HTML and CSS, but my "swiss-army
-            knife" is constantly expanding... so stay tuned, more to come!
+            My tech skills include JavaScript, HTML and CSS, React, NodeJS, but
+            my "swiss-army knife" is constantly expanding... so stay tuned, more
+            to come!
             <br />
             <br />
             When I'm not coding or learning something new, I like exercising,

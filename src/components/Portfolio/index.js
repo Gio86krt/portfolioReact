@@ -1,4 +1,3 @@
-import API from "../../API/API";
 import projects from "../../Utils/GlobalStorage";
 import Item from "../Item";
 
