@@ -1,47 +1,36 @@
 import React from "react";
 import "./style.css";
 
-// function getInputs(e) {
-//   e.preventDefault();
-
-//   let name = document.querySelector(".name").value;
-//   let email = document.querySelector(".email").value;
-//   let message = document.querySelector("#message").value;
-//   // console.log(name, email, message);
-//   sendEmail(name, email, message);
-// }
-
-// document.querySelector(".send").addEventListener("click", getInputs);
-
-// function sendEmail(name, email, message) {
-//   Email.send({
-//     SecureToken: "54c85e71-4bb4-482d-91c9-fe30d4ea515c",
-//     To: `webdevgiova86@gmail.com`,
-//     From: `${email}`,
-//     Subject: `${name} has sent you a message`,
-//     Body: `${message}`,
-//   })
-//     .then((message) => {
-//       clearInputs();
-//       console.log(message);
-//       alert("Message was sent");
-//     })
-//     .catch((err) => {
-//       alert("Message not sent, try again!");
-//       console.log(err);
-//     });
-// }
-
-// function clearInputs() {
-//   document.querySelector(".name").value = "";
-//   document.querySelector(".email").value = "";
-//   document.querySelector("#message").value = "";
-// }
+import emailjs from "emailjs-com";
 
 function Contact() {
+  function sendEmail(e) {
+    e.preventDefault();
+    // console.log(e.target);
+
+    emailjs
+      .sendForm(
+        "service_pu6oaeh",
+        "template_drfxhjj",
+        e.target,
+        "user_Vrh3kpUcbaQ2xrsb1qziZ"
+      )
+      .then(
+        (result) => {
+          console.log(result);
+          alert("Thank you!");
+        },
+        (error) => {
+          console.log(error.text);
+          alert("Sorry try again...");
+        }
+      );
+    e.target.reset();
+  }
+
   return (
     <div>
-      <form className="container">
+      <form onSubmit={sendEmail} className="container">
         <h3>Send me a message: </h3>
         <br />
         <input
@@ -70,7 +59,9 @@ function Contact() {
           rows="5"
         />
         <br />
-        <button id="btn primary-btn send">Send!</button>
+        <button type="submit" id="btn primary-btn send">
+          Send!
+        </button>
       </form>
     </div>
   );
