@@ -67,7 +67,7 @@ function Header() {
                         <NavLink
                           className="dropdown-item"
                           target="_blank"
-                          to={el.url}
+                          to={el.url.slice(el.url.indexOf("/"))}
                         >
                           {el.name}
                         </NavLink>

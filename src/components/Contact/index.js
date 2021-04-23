@@ -6,7 +6,6 @@ import emailjs from "emailjs-com";
 function Contact() {
   function sendEmail(e) {
     e.preventDefault();
-    // console.log(e.target);
 
     emailjs
       .sendForm(
