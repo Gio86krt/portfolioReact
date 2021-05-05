@@ -42,26 +42,29 @@ function About() {
             Hello and welcome to my page!
             <br />
             <br />
-            My name is Giovanni, I am an emerging front-end developer based in
-            the wonderful frame of Toronto, Ontario.
+            Graduated from the Full Stack Coding Bootcamp, UofT, Toronto,
+            Canada. My tech skills include, but are not limited to: JavaScript
+            (ES6, both vanilla and using libraries such as JQuery), HTML5 and
+            CSS3, React, NodeJS, SQL, and MongoDB. My journey into programming
+            is just beginning but I consider my passion for knowledge and
+            constant improvement an invaluable asset for the field.
             <br />
             <br />
-            After spending almost 10 years in hospitality I decided to follow my
-            passion for problem solving and to embrace the challenging task of
-            coding, bringing with me the skills acquired in my previous career,
-            such as: time management, quick thinking, communication and team
-            work.
-            <br />
-            <br />
-            My tech skills include JavaScript, HTML and CSS, React, NodeJS, but
-            my "swiss-army knife" is constantly expanding... so stay tuned, more
-            to come!
+            In my previous career I was an hospitality professional, in the past
+            10 years I went from Front of the House to the Back of the House,
+            this journey made me appreciate all the different aspects of the
+            restaurant business, from providing excellent service and working in
+            direct contact with the customers, to managing the kitchen staff,
+            monitoring the storage and dealing with suppliers. The intense
+            workload and fast paced environment of the industry made me develop
+            a great sense of Time Management, Problem-Solving, Teamwork,
+            Communication, Effectiveness and Resilience.
             <br />
             <br />
             When I'm not coding or learning something new, I like exercising,
-            reading, cooking or watching a good movie. From time to time I get
-            obsessed with a new subject.. in the last few months it's been
-            anything related to space and astronomy.
+            reading, and cooking. From time to time I get obsessed with a new
+            subject.. in the last few months it's been anything related to space
+            and astronomy.
             <br />
             <br />
           </div>
