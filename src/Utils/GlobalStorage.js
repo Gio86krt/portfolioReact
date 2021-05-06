@@ -5,6 +5,7 @@ const projects = [
     repoLink: "https://github.com/Gio86krt/DailyPlanner",
     description: "Plan your day with this useful and practical tool.",
     image: "/assets/planner.png",
+    techUsed: ["JavaScript", "HTML", "CSS", "Bootstrap"],
   },
   {
     name: "Fitness Tracker",
@@ -13,6 +14,7 @@ const projects = [
     description:
       "Stay ahead of your game, record your workouts and track your progress.",
     image: "/assets/fitnessTracker.png",
+    techUsed: ["JavaScript", "HTML", "CSS", "MongoDB", "Mongoose", "NodeJS"],
   },
   {
     name: "Weather Dashboard",
@@ -20,6 +22,7 @@ const projects = [
     repoLink: "https://github.com/Gio86krt/WeatherDashboard",
     description: "Search for a city and get the forecast for the next days.",
     image: "/assets/weather.png",
+    techUsed: ["JavaScript", "HTML", "CSS", "API", "Bootstrap"],
   },
   {
     name: "Note Taker",
@@ -27,6 +30,7 @@ const projects = [
     repoLink: "https://github.com/Gio86krt/noteTaker",
     description: "Useful app to take notes.",
     image: "/assets/noteTaker.png",
+    techUsed: ["JavaScript", "HTML", "CSS", "NodeJS"],
   },
   {
     name: "Clients Management System",
@@ -34,6 +38,7 @@ const projects = [
     repoLink: "https://github.com/Gio86krt/",
     description: "Store your clients data and organize your work.",
     image: "/assets/CRM.png",
+    techUsed: ["JavaScript", "HTML", "CSS", "SQL", "NodeJS", "Bootstrap"],
   },
   {
     name: "Reddit App",
@@ -42,6 +47,7 @@ const projects = [
     description:
       "Be constantly up to date on latest crypto currencies value with this useful App.",
     image: "/assets/reddit.png",
+    techUsed: ["JavaScript", "HTML", "CSS", "APIs", "JQuery"],
   },
 ];
 
