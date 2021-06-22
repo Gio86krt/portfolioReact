@@ -49,6 +49,14 @@ const projects = [
     image: "/assets/reddit.png",
     techUsed: ["JavaScript", "HTML", "CSS", "APIs", "JQuery"],
   },
+  {
+    name: "Employee Manager",
+    url: "https://employeedirectory000.herokuapp.com/",
+    repoLink: "https://github.com/Gio86krt/employeedirectory",
+    description: "React application with search functonalities",
+    image: "/assets/employeeDirectory.png",
+    techUsed: ["JavaScript", "HTML", "CSS", "APIs", "React"],
+  },
 ];
 
 export default projects;
