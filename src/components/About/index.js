@@ -14,7 +14,7 @@ function About() {
     <div className="container" style={styling}>
       <Image />
 
-      {/* <div className="links">
+      <div className="links">
         <a href="https://www.linkedin.com/in/giovanni-orlando-a902a472/">
           <i
             className="fa fa-linkedin-square"
@@ -33,7 +33,7 @@ function About() {
             style={{ fontSize: "48px", color: "red" }}
           ></i>
         </a>
-      </div> */}
+      </div>
 
       <div className="card border-info">
         <div className="card-body">
